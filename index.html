@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,15 +10,17 @@
   <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
   <title>Mini curso HTML/CSS</title>
 </head>
+
 <body>
-  <head>
+  <div class="header">
     Contador
-  </head>
-  <div>
-    <button id="sub-btn" type="button" onclick="sub();">Diminuir</button>
+  </div>
+  <div class="count-content">
+    <button id="sub-btn" class="button" type="button" onclick="sub();">Diminuir</button>
     <span id="total">0</span>
-    <button type="button" onclick="add();">Adicionar</button>
+    <button class="button" type="button" onclick="add();">Adicionar</button>
   </div>
   <script src="scripts.js"></script>
 </body>
+
 </html>
